@@ -1,0 +1,9 @@
+* text=auto
+*.gd text eol=lf
+*.ps1 text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.png binary
+*.mp4 binary
+*.zip binary
+*.exe binary

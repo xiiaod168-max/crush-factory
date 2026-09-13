@@ -1,0 +1,97 @@
+{
+	"cycles": [
+		{
+			"compression_seconds": 9.09999999999997,
+			"final": 0.757739349828103,
+			"level": 1,
+			"object": "bottle",
+			"peak": 0.82,
+			"pressure": 80.0,
+			"reward": 33
+		},
+		{
+			"compression_seconds": 33.3999999999992,
+			"final": 0.887513848289721,
+			"level": 1,
+			"object": "cardboard",
+			"peak": 0.887513848289721,
+			"pressure": 80.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 11.9999999999993,
+			"final": 0.09120703816647,
+			"level": 1,
+			"object": "aluminum",
+			"peak": 0.09120703816647,
+			"pressure": 80.0,
+			"reward": 16
+		},
+		{
+			"compression_seconds": 12.7999999999993,
+			"final": 0.212881661239776,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013781,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 13.6333333333326,
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 11.0333333333327,
+			"final": 0.799742184323264,
+			"level": 3,
+			"object": "crate",
+			"peak": 0.799742184323264,
+			"pressure": 140.0,
+			"reward": 130
+		},
+		{
+			"compression_seconds": 13.6333333333326,
+			"final": 0.819352621781484,
+			"level": 3,
+			"object": "pc",
+			"peak": 0.819352621781484,
+			"pressure": 140.0,
+			"reward": 176
+		},
+		{
+			"compression_seconds": 9.89999999999944,
+			"final": 0.759212302250037,
+			"level": 4,
+			"object": "microwave",
+			"peak": 0.759212302250037,
+			"pressure": 180.0,
+			"reward": 225
+		}
+	],
+	"failures": [],
+	"level": 4,
+	"mode": "session",
+	"money": 333,
+	"object": "microwave",
+	"phase": "COLLECTED",
+	"pid": 18972,
+	"settings": {
+		"muted": false
+	},
+	"tire_unlocked": true,
+	"unlocked": [
+		"bottle",
+		"cardboard",
+		"aluminum",
+		"tire",
+		"crate",
+		"pc",
+		"microwave"
+	],
+	"version": "0.6.0-m6-review.1"
+}

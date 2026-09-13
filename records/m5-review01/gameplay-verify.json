@@ -1,0 +1,162 @@
+{
+	"cycles": [
+		{
+			"compression_seconds": 29.7961273333328,
+			"final": 0.886067294890924,
+			"level": 1,
+			"object": "cardboard",
+			"peak": 0.886067294890924,
+			"pressure": 80.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 9.10759899999952,
+			"final": 0.0904605553638691,
+			"level": 1,
+			"object": "aluminum",
+			"peak": 0.0904605553638691,
+			"pressure": 80.0,
+			"reward": 16
+		},
+		{
+			"compression_seconds": 11.8995606666671,
+			"final": 0.899419588711725,
+			"level": 2,
+			"object": "cardboard",
+			"peak": 0.899419588711725,
+			"pressure": 100.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 12.1327126666667,
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 11.3163060000003,
+			"final": 0.212932654537854,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013781,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 11.9079166666665,
+			"final": 0.899419588711725,
+			"level": 2,
+			"object": "cardboard",
+			"peak": 0.899419588711725,
+			"pressure": 100.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 12.1264913333328,
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 11.3164173333333,
+			"final": 0.212932654537854,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013781,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 11.9052919999997,
+			"final": 0.899419588711725,
+			"level": 2,
+			"object": "cardboard",
+			"peak": 0.899419588711725,
+			"pressure": 100.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 12.1286990000018,
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 11.316541000004,
+			"final": 0.212932654537854,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013781,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 11.8995239999904,
+			"final": 0.899419588711725,
+			"level": 2,
+			"object": "cardboard",
+			"peak": 0.899419588711725,
+			"pressure": 100.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 12.1326683333313,
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 11.3162139999909,
+			"final": 0.212932654537854,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013781,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 11.3162139999909,
+			"final": 0.212932654537854,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013781,
+			"pressure": 100.0,
+			"reward": 79
+		}
+	],
+	"failures": [],
+	"level": 2,
+	"mode": "verify",
+	"money": 735,
+	"object": "tire",
+	"performance": {
+		"adapter": "Intel(R) UHD Graphics",
+		"average_fps": 57.8474269041069,
+		"frames": 11571,
+		"max_ms": 52.023,
+		"p95_ms": 20.7,
+		"p99_ms": 22.534,
+		"renderer": "gl_compatibility",
+		"resolution": "1280x720",
+		"timing": "Time.get_ticks_usec; 2s warmup; no capture"
+	},
+	"phase": "COLLECTED",
+	"pid": 19144,
+	"settings": {
+		"muted": false
+	},
+	"tire_unlocked": true,
+	"version": "0.5.0-m5-review.1"
+}

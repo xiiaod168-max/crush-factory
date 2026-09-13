@@ -1,0 +1,14 @@
+.godot/
+tools/userdata/
+tools/godot*/
+tools/ffmpeg/
+tools/*.zip
+tools/templates/
+builds/
+records/*.avi
+records/*.wav
+records/*.mp4
+records/*.png
+records/*.log
+records/*.jpg
+*.tmp

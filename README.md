@@ -109,4 +109,3 @@ Contributions, bug reports, and screenshots from other hardware are welcome. Ple
 ## English summary
 
 Crush Factory is a deterministic, material-driven hydraulic press simulator prototype. It is a Godot 4.7.2 Windows game about choosing scrap, watching it fail in a material-specific way, collecting the reward, and upgrading the press. The current public package is an M6 review build with seven objects. It is open source, offline, and intentionally small.
-

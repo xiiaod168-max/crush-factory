@@ -1,0 +1,15 @@
+{
+  "baseline": "207ef8d",
+  "unchanged": {
+    "scripts/main.gd": true,
+    "scripts/press_controller.gd": true,
+    "scripts/cardboard.gd": true,
+    "scripts/crush_solver.gd": true,
+    "scripts/material_profile.gd": true,
+    "scripts/aluminum_can.gd": true,
+    "scripts/aluminum_solver.gd": true,
+    "scripts/tire.gd": true,
+    "scripts/rubber_solver.gd": true,
+    "scripts/press_audio.gd": true
+  }
+}

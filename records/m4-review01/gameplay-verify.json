@@ -1,0 +1,147 @@
+{
+	"cycles": [
+		{
+			"final": 0.886067294890924,
+			"level": 1,
+			"object": "cardboard",
+			"peak": 0.886067294890924,
+			"pressure": 80.0,
+			"reward": 28
+		},
+		{
+			"final": 0.0904605553638691,
+			"level": 1,
+			"object": "aluminum",
+			"peak": 0.0904605553638691,
+			"pressure": 80.0,
+			"reward": 16
+		},
+		{
+			"final": 0.899419588711725,
+			"level": 2,
+			"object": "cardboard",
+			"peak": 0.899419588711725,
+			"pressure": 100.0,
+			"reward": 28
+		},
+		{
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"final": 0.212932654537853,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013779,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"final": 0.899419588711725,
+			"level": 2,
+			"object": "cardboard",
+			"peak": 0.899419588711725,
+			"pressure": 100.0,
+			"reward": 28
+		},
+		{
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"final": 0.212932654537853,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013779,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"final": 0.899419588711725,
+			"level": 2,
+			"object": "cardboard",
+			"peak": 0.899419588711725,
+			"pressure": 100.0,
+			"reward": 28
+		},
+		{
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"final": 0.212932654537853,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013779,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"final": 0.899419588711725,
+			"level": 2,
+			"object": "cardboard",
+			"peak": 0.899419588711725,
+			"pressure": 100.0,
+			"reward": 28
+		},
+		{
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"final": 0.212932654537853,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013779,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"final": 0.212932654537853,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013779,
+			"pressure": 100.0,
+			"reward": 79
+		}
+	],
+	"failures": [],
+	"level": 2,
+	"mode": "verify",
+	"money": 735,
+	"object": "tire",
+	"performance": {
+		"adapter": "Intel(R) UHD Graphics",
+		"average_fps": 58.0436201735796,
+		"frames": 13661,
+		"max_ms": 43.595,
+		"p95_ms": 20.842,
+		"p99_ms": 22.629,
+		"renderer": "gl_compatibility",
+		"resolution": "1280x720",
+		"timing": "Time.get_ticks_usec; 2s warmup; no capture"
+	},
+	"phase": "COLLECTED",
+	"pid": 13328,
+	"settings": {
+		"muted": false
+	},
+	"tire_unlocked": true,
+	"version": "0.4.0-m4-review.1"
+}

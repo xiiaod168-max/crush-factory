@@ -1,0 +1,101 @@
+"""Package Review 02 only after final executable verification."""
+import hashlib
+import json
+from pathlib import Path
+import shutil
+import zipfile
+
+root = Path(__file__).resolve().parents[1]
+records = root / 'records/review02'
+build = root / 'builds/M1-review-02'
+result = json.loads((records / 'benchmark-gl_compatibility.json').read_text())
+assert result['version'] == '0.1.0-m1-review.2'
+assert result['cycles'] == result['buckle_events'] == 10 and not result['failures']
+tests = ['solver_test', 'cardboard_test', 'controller_test', 'review02_test']
+for name in tests:
+    log = (records / f'{name}.log').read_text(encoding='utf-8')
+    assert ('PASS' in log or 'Review02 tests: 0 failures' in log)
+    assert 'ERROR:' not in log and 'WARNING:' not in log
+for name in ['record-front', 'record-side', 'build-benchmark']:
+    log = (records / f'{name}.log').read_text(encoding='utf-8')
+    assert 'ERROR:' not in log and 'WARNING:' not in log
+sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+exe_hash = sha(build / 'CrushFactory.exe')
+assert exe_hash == '9444d6bcedfca3580932f9ba095f1b8c922aff3282c21918e0e0c2cddaf4702e'
+memory = json.loads((records/'process-memory.json').read_text(encoding='utf-8-sig'))
+private = [s['private_bytes']/1048576 for s in memory]
+report = f'''# M1 Review 02 — 等待用户视觉验收
+
+版本：0.1.0-m1-review.2。M0 回滚点：217cd6f。
+第一轮视觉验收未通过；本轮只修改纸箱。未进入 M2，未创建 M1 验收 commit。
+
+## 运行与查看
+双击交付目录的 CrushFactory.exe，无需安装 Godot。Space 开始/暂停/继续，R 回程，N 新纸箱，1/2 正面/侧面，鼠标右键环绕，滚轮缩放，M 静音，Esc 退出。
+
+- [正面完整视频](front-full.mp4) / [侧面完整视频](side-full.mp4)
+- 正面：[压缩前](front-before.png) / [主屈曲](front-buckling.png) / [二次折叠](front-folding.png) / [回程后](front-after.png)
+- 侧面：[压缩前](side-before.png) / [主屈曲](side-buckling.png) / [二次折叠](side-folding.png) / [回程后](side-after.png)
+
+两段均为同一最终 EXE 的原生逐帧录制，22.07 秒，1280×720、30 FPS、H.264/AAC。使用实际玩法控制，包含下降、接触、屈曲、压实、停止、回程和永久形变。侧面约 57°，兼顾两个壁面和立柱遮挡。完整解码各 662 帧，音频检查详见日志。逐帧录制的耗时不用于性能结论。
+
+## 本轮修改
+- 前壁主斜折线先向内塌，右壁先鼓出；相邻壁面延后形成不同斜折，边角局部下陷。
+- 四面共享边界坐标；顶部两个盖片局部凹陷、错层搭接；最终顶部与边缘保留不规则褶皱和局部高低差。
+- 接触后减速，16% 压缩时主结构失稳，负载约 78 → 18，停顿 4 个物理帧（约 67ms），随后短暂加速再承压。
+- 控制器测试中，失稳前约 0.064m/s，短促塌陷约 0.595m/s；速度仍受每步 0.02m 上限和当前包络限制。
+- 主失稳绑定短纸板声、轻微震动和 6 个复用纸屑；每个纸箱仅触发一次，纸屑寿命 1.1 秒。加入克制的表面明暗变化。
+
+## 最终 Windows Build 实测
+Intel UHD Graphics / Compatibility / 1280×720 / 默认垂直同步。实时有窗口运行，预热 2 秒后以 Time.get_ticks_usec 记录真实帧间隔；测试期间不录屏、不转码、不并行运行另一渲染器。
+
+| 完整周期 | 主失稳次数 | 平均 FPS | P95 帧时间 | P99 帧时间 | 最大帧时间 |
+|---:|---:|---:|---:|---:|---:|
+| {result['cycles']} | {result['buckle_events']} | {result['average_fps']:.2f} | {result['p95_ms']:.2f}ms | {result['p99_ms']:.2f}ms | {result['max_ms']:.2f}ms |
+
+结果仅代表本机本轮条件；不代表其他硬件或 1080p 性能。Mobile/Forward+ 本轮未重新测量，上一轮探测保留在历史记录，不充当本轮性能证据。
+
+Release 的 Godot MEMORY_STATIC 不可用，JSON 中 0 不代表零内存。另对同一次运行采集 {len(memory)} 个进程样本：private bytes 首次 {private[0]:.2f}MiB，最后 {private[-1]:.2f}MiB，区间 {min(private):.2f}–{max(private):.2f}MiB。采样从测试启动后开始，是趋势观察，不能证明长期无泄漏。
+
+## 测试结果
+- 四组测试通过：Solver、Controller、Cardboard、Review02；日志无 ERROR/WARNING。
+- 验证无接触不形变、低压停滞、暂停/继续、提前回程、保留部分损伤、重复压缩、重置、异常高速限制。
+- 新增非对称内折/外鼓、局部高度差、顶盖起伏、共享边界、各阶段有限坐标与包络、形变连续性、一次性失稳及速度变化检查。
+- 最终 EXE 连续 10 次压缩回程，未记录压板越过 Solver 包络或永久损伤丢失；每箱一次失稳，纸屑按时结束。每周期 42 次简化碰撞同步。
+- 两次最终录制与 10 周期测试正常退出。自动检查结果不能替代用户对自然度、重量感和满足感的判断。
+
+## 已知问题与限制
+- 形变为预设的程序化折线，重复纸箱的屈曲模式相同；仍有低面数折痕感。
+- 盖片采用受控搭接，没有完整纸板自碰撞或纤维级撕裂；碰撞是简化包络，压力为游戏刻度。
+- 音效仍是合成占位音。纸屑为可控轨迹，不参与刚体堆积。
+- 只在当前 Windows 电脑实测，EXE 未做商业代码签名。
+- 未新增其他材质、经营系统或场景。第二轮交付后停止开发，等用户明确确认才提交 M1 验收 commit。
+
+## 修正记录与文件一致性
+第一轮反馈显示同步折叠和终态过平，本轮改为分时局部斜折。第二轮内部检查仍发现顶盖局部起伏不足，已加入局部折脊，并通过对应测试；没有改用不稳定的自由刚体或软体路线。
+
+最终 EXE SHA256：`{exe_hash}`。
+artifacts-sha256.json 覆盖交付文件；source-sha256.json 记录游戏源码和资源。第一轮包保留不覆盖。M1 仍待视觉验收。
+'''
+(records/'M1_REVIEW.md').write_text(report, encoding='utf-8')
+evidence = build/'Evidence'
+evidence.mkdir(exist_ok=True)
+names = ['M1_REVIEW.md', 'front-full.mp4', 'side-full.mp4', 'benchmark-gl_compatibility.json', 'process-memory.json']
+names += [f'{v}-{s}.png' for v in ('front','side') for s in ('before','buckling','folding','after')]
+names += [f'{t}.log' for t in tests]
+names += [f'{n}.log' for n in ('record-front','record-side','build-benchmark','front-audio-validation','side-audio-validation')]
+for name in names:
+    shutil.copy2(records/name, evidence/name)
+for name in ['README.md','ASSET_LICENSES.md','DEVELOPMENT_PLAN.md']:
+    shutil.copy2(root/name, build/name)
+sources = list((root/'scripts').glob('*.gd')) + list((root/'scenes').glob('*.tscn')) + list((root/'assets').glob('*.png')) + [root/'project.godot',root/'export_presets.cfg']
+(build/'source-sha256.json').write_text(json.dumps({p.relative_to(root).as_posix():sha(p) for p in sources},indent=2),encoding='utf-8')
+manifest = {p.relative_to(build).as_posix():sha(p) for p in build.rglob('*') if p.is_file() and p.name != 'artifacts-sha256.json'}
+(build/'artifacts-sha256.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
+archive = root/'builds/CrushFactory-M1-review-02-Windows-x64.zip'
+with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=3) as z:
+    for path in build.rglob('*'):
+        if path.is_file(): z.write(path,Path('CrushFactory-M1-review-02')/path.relative_to(build))
+with zipfile.ZipFile(archive) as z:
+    assert z.testzip() is None
+assert all(sha(build/p) == value for p,value in manifest.items())
+print(json.dumps({'archive':str(archive),'bytes':archive.stat().st_size,'exe_sha256':exe_hash,'fps':result['average_fps'],'cycles':result['cycles']},indent=2))

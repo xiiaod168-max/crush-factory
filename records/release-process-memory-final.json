@@ -1,0 +1,109 @@
+{
+  "ExeSha256": "EC5E0B92CDE99C3B5A9AF5262A96D85EF8B993B9A22BBD2B2AB6F77F4EE0AA0E",
+  "Note": "Separate single-cycle OS memory sample; not frame-time benchmark",
+  "ExitCode": 0,
+  "Samples": [
+    {
+      "ElapsedSeconds": 0.03,
+      "WorkingSetMB": 27.05,
+      "PrivateMB": 10.13,
+      "PeakWorkingSetMB": 27.05
+    },
+    {
+      "ElapsedSeconds": 1.06,
+      "WorkingSetMB": 315.39,
+      "PrivateMB": 295.79,
+      "PeakWorkingSetMB": 315.39
+    },
+    {
+      "ElapsedSeconds": 2.08,
+      "WorkingSetMB": 320.66,
+      "PrivateMB": 299.94,
+      "PeakWorkingSetMB": 324.56
+    },
+    {
+      "ElapsedSeconds": 3.08,
+      "WorkingSetMB": 320.66,
+      "PrivateMB": 299.94,
+      "PeakWorkingSetMB": 324.56
+    },
+    {
+      "ElapsedSeconds": 4.1,
+      "WorkingSetMB": 320.83,
+      "PrivateMB": 299.98,
+      "PeakWorkingSetMB": 324.56
+    },
+    {
+      "ElapsedSeconds": 5.11,
+      "WorkingSetMB": 320.83,
+      "PrivateMB": 299.98,
+      "PeakWorkingSetMB": 324.56
+    },
+    {
+      "ElapsedSeconds": 6.13,
+      "WorkingSetMB": 321.27,
+      "PrivateMB": 300.28,
+      "PeakWorkingSetMB": 324.56
+    },
+    {
+      "ElapsedSeconds": 7.14,
+      "WorkingSetMB": 321.14,
+      "PrivateMB": 300.1,
+      "PeakWorkingSetMB": 324.56
+    },
+    {
+      "ElapsedSeconds": 8.16,
+      "WorkingSetMB": 321.18,
+      "PrivateMB": 300.07,
+      "PeakWorkingSetMB": 325.01
+    },
+    {
+      "ElapsedSeconds": 9.17,
+      "WorkingSetMB": 321.18,
+      "PrivateMB": 300.07,
+      "PeakWorkingSetMB": 325.01
+    },
+    {
+      "ElapsedSeconds": 10.19,
+      "WorkingSetMB": 321.18,
+      "PrivateMB": 300.07,
+      "PeakWorkingSetMB": 325.01
+    },
+    {
+      "ElapsedSeconds": 11.21,
+      "WorkingSetMB": 282.06,
+      "PrivateMB": 255.25,
+      "PeakWorkingSetMB": 325.01
+    },
+    {
+      "ElapsedSeconds": 12.22,
+      "WorkingSetMB": 275.57,
+      "PrivateMB": 248.14,
+      "PeakWorkingSetMB": 325.01
+    },
+    {
+      "ElapsedSeconds": 13.24,
+      "WorkingSetMB": 275.57,
+      "PrivateMB": 248.14,
+      "PeakWorkingSetMB": 325.01
+    },
+    {
+      "ElapsedSeconds": 14.25,
+      "WorkingSetMB": 275.0,
+      "PrivateMB": 247.57,
+      "PeakWorkingSetMB": 325.01
+    },
+    {
+      "ElapsedSeconds": 15.26,
+      "WorkingSetMB": 274.87,
+      "PrivateMB": 247.43,
+      "PeakWorkingSetMB": 325.01
+    },
+    {
+      "ElapsedSeconds": 16.28,
+      "WorkingSetMB": 274.87,
+      "PrivateMB": 247.43,
+      "PeakWorkingSetMB": 325.01
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+	"cycles": [
+		{
+			"final": 0.887513848289721,
+			"level": 1,
+			"object": "cardboard",
+			"peak": 0.887513848289721,
+			"pressure": 80.0,
+			"reward": 28
+		},
+		{
+			"final": 0.09120703816647,
+			"level": 1,
+			"object": "aluminum",
+			"peak": 0.09120703816647,
+			"pressure": 80.0,
+			"reward": 16
+		},
+		{
+			"final": 0.212881661239776,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013779,
+			"pressure": 100.0,
+			"reward": 79
+		}
+	],
+	"failures": [],
+	"level": 2,
+	"mode": "session",
+	"money": 83,
+	"object": "tire",
+	"phase": "COLLECTED",
+	"pid": 15196,
+	"settings": {
+		"muted": false
+	},
+	"tire_unlocked": true,
+	"version": "0.4.0-m4-review.1"
+}

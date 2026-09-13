@@ -1,0 +1,24 @@
+{
+	"cycles": [],
+	"failures": [],
+	"level": 4,
+	"mode": "resume",
+	"money": 333,
+	"object": "",
+	"phase": "SELECT",
+	"pid": 18588,
+	"settings": {
+		"muted": false
+	},
+	"tire_unlocked": true,
+	"unlocked": [
+		"bottle",
+		"cardboard",
+		"aluminum",
+		"tire",
+		"crate",
+		"pc",
+		"microwave"
+	],
+	"version": "0.6.0-m6-review.1"
+}

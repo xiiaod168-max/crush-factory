@@ -1,0 +1,5 @@
+{
+	"failures": [],
+	"input": "Godot Input.parse_input_event; not OS SendInput",
+	"window": "1024x576"
+}

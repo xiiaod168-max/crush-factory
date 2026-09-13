@@ -1,0 +1,17 @@
+{
+	"adapter": "Intel(R) UHD Graphics",
+	"average_fps": 60.2794887301864,
+	"cycles": 1,
+	"failures": [],
+	"frames": 701,
+	"max_ms": 21.554,
+	"memory_bytes_per_cycle": [
+		0
+	],
+	"p95_ms": 17.243,
+	"p99_ms": 19.161,
+	"renderer": "forward_plus",
+	"resolution": "1280x720",
+	"timing": "Time.get_ticks_usec frame intervals; 2s warmup; no capture",
+	"version": "0.1.0-m1-review.1"
+}

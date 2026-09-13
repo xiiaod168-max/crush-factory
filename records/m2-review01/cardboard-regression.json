@@ -1,0 +1,84 @@
+{
+  "baseline_commit": "b9ac7ee",
+  "protected_sources_identical": {
+    "scripts/cardboard.gd": true,
+    "scripts/crush_solver.gd": true,
+    "scripts/material_profile.gd": true,
+    "assets/paper.png": true,
+    "assets/paper-top.png": true
+  },
+  "screenshots": {
+    "front-before.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "front-buckling.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "front-folding.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "front-after.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "side-before.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "side-buckling.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "side-folding.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "side-after.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    }
+  }
+}

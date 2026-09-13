@@ -1,0 +1,288 @@
+{
+	"cycles": [
+		{
+			"compression_seconds": 7.62882111111111,
+			"final": 0.757855900685522,
+			"level": 1,
+			"object": "bottle",
+			"peak": 0.82,
+			"pressure": 80.0,
+			"reward": 33
+		},
+		{
+			"compression_seconds": 29.7824379999991,
+			"final": 0.886067294890924,
+			"level": 1,
+			"object": "cardboard",
+			"peak": 0.886067294890924,
+			"pressure": 80.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 9.12703933333319,
+			"final": 0.0904605553638691,
+			"level": 1,
+			"object": "aluminum",
+			"peak": 0.0904605553638691,
+			"pressure": 80.0,
+			"reward": 16
+		},
+		{
+			"compression_seconds": 11.316666666666,
+			"final": 0.212932654537854,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013781,
+			"pressure": 100.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 12.1292033333334,
+			"final": 0.899379246874829,
+			"level": 2,
+			"object": "aluminum",
+			"peak": 0.899379246874829,
+			"pressure": 100.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 9.54961800000042,
+			"final": 0.799742184323264,
+			"level": 3,
+			"object": "crate",
+			"peak": 0.799742184323264,
+			"pressure": 140.0,
+			"reward": 130
+		},
+		{
+			"compression_seconds": 12.1661800000005,
+			"final": 0.819352621781484,
+			"level": 3,
+			"object": "pc",
+			"peak": 0.819352621781484,
+			"pressure": 140.0,
+			"reward": 176
+		},
+		{
+			"compression_seconds": 8.43299600000037,
+			"final": 0.759212302250037,
+			"level": 4,
+			"object": "microwave",
+			"peak": 0.759212302250037,
+			"pressure": 180.0,
+			"reward": 225
+		},
+		{
+			"compression_seconds": 5.81643400000026,
+			"final": 0.757855900685522,
+			"level": 4,
+			"object": "bottle",
+			"peak": 0.82,
+			"pressure": 180.0,
+			"reward": 33
+		},
+		{
+			"compression_seconds": 6.93305600000031,
+			"final": 0.799466358664344,
+			"level": 4,
+			"object": "crate",
+			"peak": 0.799466358664344,
+			"pressure": 180.0,
+			"reward": 130
+		},
+		{
+			"compression_seconds": 7.46636799999847,
+			"final": 0.819956397674985,
+			"level": 4,
+			"object": "pc",
+			"peak": 0.819956397674985,
+			"pressure": 180.0,
+			"reward": 176
+		},
+		{
+			"compression_seconds": 8.43299599999318,
+			"final": 0.759212302250037,
+			"level": 4,
+			"object": "microwave",
+			"peak": 0.759212302250037,
+			"pressure": 180.0,
+			"reward": 225
+		},
+		{
+			"compression_seconds": 5.8164339999953,
+			"final": 0.757855900685522,
+			"level": 4,
+			"object": "bottle",
+			"peak": 0.82,
+			"pressure": 180.0,
+			"reward": 33
+		},
+		{
+			"compression_seconds": 6.93305599999439,
+			"final": 0.799466358664344,
+			"level": 4,
+			"object": "crate",
+			"peak": 0.799466358664344,
+			"pressure": 180.0,
+			"reward": 130
+		},
+		{
+			"compression_seconds": 7.46636799999396,
+			"final": 0.819956397674985,
+			"level": 4,
+			"object": "pc",
+			"peak": 0.819956397674985,
+			"pressure": 180.0,
+			"reward": 176
+		},
+		{
+			"compression_seconds": 8.43299599999318,
+			"final": 0.759212302250037,
+			"level": 4,
+			"object": "microwave",
+			"peak": 0.759212302250037,
+			"pressure": 180.0,
+			"reward": 225
+		},
+		{
+			"compression_seconds": 7.84968599999365,
+			"final": 0.899170114942518,
+			"level": 4,
+			"object": "cardboard",
+			"peak": 0.899170114942518,
+			"pressure": 180.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 6.81820833333265,
+			"final": 0.899795402298838,
+			"level": 4,
+			"object": "aluminum",
+			"peak": 0.899795402298838,
+			"pressure": 180.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 9.61639299999669,
+			"final": 0.21289841361064,
+			"level": 4,
+			"object": "tire",
+			"peak": 0.66,
+			"pressure": 180.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 7.84968599999365,
+			"final": 0.899170114942518,
+			"level": 4,
+			"object": "cardboard",
+			"peak": 0.899170114942518,
+			"pressure": 180.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 6.79734066666742,
+			"final": 0.899795402298838,
+			"level": 4,
+			"object": "aluminum",
+			"peak": 0.899795402298838,
+			"pressure": 180.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 9.61666666667432,
+			"final": 0.21289841361064,
+			"level": 4,
+			"object": "tire",
+			"peak": 0.66,
+			"pressure": 180.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 7.84989133333522,
+			"final": 0.899170114942518,
+			"level": 4,
+			"object": "cardboard",
+			"peak": 0.899170114942518,
+			"pressure": 180.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 6.81950700000124,
+			"final": 0.899795402298838,
+			"level": 4,
+			"object": "aluminum",
+			"peak": 0.899795402298838,
+			"pressure": 180.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 9.61644766666555,
+			"final": 0.21289841361064,
+			"level": 4,
+			"object": "tire",
+			"peak": 0.66,
+			"pressure": 180.0,
+			"reward": 79
+		},
+		{
+			"compression_seconds": 7.84968599999368,
+			"final": 0.899170114942518,
+			"level": 4,
+			"object": "cardboard",
+			"peak": 0.899170114942518,
+			"pressure": 180.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 6.81662499999948,
+			"final": 0.899795402298838,
+			"level": 4,
+			"object": "aluminum",
+			"peak": 0.899795402298838,
+			"pressure": 180.0,
+			"reward": 56
+		},
+		{
+			"compression_seconds": 9.61666666665792,
+			"final": 0.21289841361064,
+			"level": 4,
+			"object": "tire",
+			"peak": 0.66,
+			"pressure": 180.0,
+			"reward": 79
+		}
+	],
+	"failures": [],
+	"level": 4,
+	"mode": "verify",
+	"money": 2113,
+	"object": "tire",
+	"performance": {
+		"adapter": "Intel(R) UHD Graphics",
+		"average_fps": 59.1975545088269,
+		"frames": 16303,
+		"max_ms": 41.6,
+		"p95_ms": 18.924,
+		"p99_ms": 21.46,
+		"renderer": "gl_compatibility",
+		"resolution": "1280x720",
+		"timing": "Time.get_ticks_usec; 2s warmup; no capture"
+	},
+	"phase": "COLLECTED",
+	"pid": 20020,
+	"settings": {
+		"muted": false
+	},
+	"tire_unlocked": true,
+	"unlocked": [
+		"bottle",
+		"cardboard",
+		"aluminum",
+		"tire",
+		"crate",
+		"pc",
+		"microwave"
+	],
+	"version": "0.6.0-m6-review.1"
+}

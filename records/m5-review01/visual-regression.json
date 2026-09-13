@@ -1,0 +1,167 @@
+{
+  "cardboard/front-before.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "cardboard/front-buckling.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "cardboard/front-folding.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "cardboard/front-after.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "cardboard/side-before.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "cardboard/side-buckling.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "cardboard/side-folding.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "cardboard/side-after.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/front-before.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/front-dent.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/front-buckling.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/front-folding.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/front-compacted.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/front-after.png": {
+    "full_identical": false,
+    "scene_identical": true,
+    "difference_bounds": [
+      370,
+      618,
+      525,
+      660
+    ]
+  },
+  "aluminum/side-before.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/side-dent.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/side-buckling.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/side-folding.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/side-compacted.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "aluminum/side-after.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/front-before.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/front-moderate.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/front-maximum.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/front-return-start.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/front-rebounding.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/front-after.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/side-before.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/side-moderate.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/side-maximum.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/side-return-start.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/side-rebounding.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  },
+  "tire/side-after.png": {
+    "full_identical": true,
+    "scene_identical": true,
+    "difference_bounds": null
+  }
+}

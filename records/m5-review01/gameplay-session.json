@@ -1,0 +1,43 @@
+{
+	"cycles": [
+		{
+			"compression_seconds": 33.4000000000004,
+			"final": 0.887513848289721,
+			"level": 1,
+			"object": "cardboard",
+			"peak": 0.887513848289721,
+			"pressure": 80.0,
+			"reward": 28
+		},
+		{
+			"compression_seconds": 11.9999999999993,
+			"final": 0.09120703816647,
+			"level": 1,
+			"object": "aluminum",
+			"peak": 0.09120703816647,
+			"pressure": 80.0,
+			"reward": 16
+		},
+		{
+			"compression_seconds": 12.7999999999993,
+			"final": 0.212881661239776,
+			"level": 2,
+			"object": "tire",
+			"peak": 0.659407147013781,
+			"pressure": 100.0,
+			"reward": 79
+		}
+	],
+	"failures": [],
+	"level": 2,
+	"mode": "session",
+	"money": 83,
+	"object": "tire",
+	"phase": "COLLECTED",
+	"pid": 11844,
+	"settings": {
+		"muted": false
+	},
+	"tire_unlocked": true,
+	"version": "0.5.0-m5-review.1"
+}

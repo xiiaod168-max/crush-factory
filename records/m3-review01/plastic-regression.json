@@ -1,0 +1,197 @@
+{
+  "m1_commit": "b9ac7ee",
+  "m2_commit": "7ae3509",
+  "protected_sources": {
+    "scripts/cardboard.gd": true,
+    "scripts/crush_solver.gd": true,
+    "scripts/material_profile.gd": true,
+    "scripts/aluminum_can.gd": true,
+    "scripts/aluminum_solver.gd": true,
+    "assets/paper.png": true,
+    "assets/paper-top.png": true,
+    "assets/can-label.png": true,
+    "assets/can-lid.png": true
+  },
+  "screenshots": {
+    "cardboard/front-before.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "cardboard/front-buckling.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "cardboard/front-folding.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "cardboard/front-after.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "cardboard/side-before.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "cardboard/side-buckling.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "cardboard/side-folding.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "cardboard/side-after.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/front-before.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/front-dent.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/front-buckling.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/front-folding.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/front-compacted.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/front-after.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/side-before.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/side-dent.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/side-buckling.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/side-folding.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/side-compacted.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    },
+    "aluminum/side-after.png": {
+      "identical": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null
+    }
+  }
+}

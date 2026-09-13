@@ -1,0 +1,17 @@
+{
+  "baseline": "834dc10",
+  "unchanged": {
+    "scripts/main.gd": true,
+    "scripts/cardboard.gd": true,
+    "scripts/crush_solver.gd": true,
+    "scripts/material_profile.gd": true,
+    "scripts/aluminum_can.gd": true,
+    "scripts/aluminum_solver.gd": true,
+    "scripts/tire.gd": true,
+    "scripts/rubber_solver.gd": true,
+    "scripts/press_audio.gd": true,
+    "scripts/press_controller.gd": true,
+    "scripts/workshop.gd": true,
+    "scripts/slice_feedback.gd": true
+  }
+}
